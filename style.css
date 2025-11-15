@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    padding: 30px;
+}
+.container{
+    width: 700px;
+    margin: auto;
+}
+.input-field .controleTexto{
+    color: #a3576e;
+    position: absolute;
+    top: 25px;
+    font-size: 1rem;
+    cursor: text;
+}
+.input-field .senhaTexto{
+    color: #a3576e;
+    position: absolute;
+    top: 35px;
+    font-size: 1rem;
+    cursor: text;
+}
+/*Regra de estilo para telas menores*/
+@media only screen and(max-width:600px){
+    main{
+        padding: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+}
